@@ -1,0 +1,2 @@
+D:/Projects/toku/toku/android/app/.cxx/Debug/e491b542/x86/CMakeFiles/edit_cache.dir
+D:/Projects/toku/toku/android/app/.cxx/Debug/e491b542/x86/CMakeFiles/rebuild_cache.dir
