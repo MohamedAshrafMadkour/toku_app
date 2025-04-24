@@ -17,13 +17,11 @@ class PhrasesPage extends StatelessWidget {
           style: TextStyle(color: Colors.white),
         ),
       ),
-      body: Expanded(
-        child: ListView.builder(
-          itemCount: kPhraseItem.length,
-          itemBuilder: (context, index) {
-            return PhrasesItem(item: kPhraseItem[index]);
-          },
-        ),
+      body: ListView.builder(
+        itemCount: kPhraseItem.length,
+        itemBuilder: (context, index) {
+          return PhrasesItem(item: kPhraseItem[index]);
+        },
       ),
     );
   }

@@ -11,10 +11,11 @@ class PhrasesItem extends StatelessWidget {
     return SizedBox(
       height: 100,
       child: Row(
-        crossAxisAlignment: CrossAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          ItemsInfo(itemVar: item),
-          const Spacer(flex: 1),
+          const SizedBox(width: 8),
+          Expanded(child: ItemsInfo(itemVar: item)),
+          const SizedBox(width: 8),
           IconButton(
             onPressed: () {
               item.playSound();
